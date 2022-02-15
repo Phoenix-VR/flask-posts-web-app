@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel= "stylesheet" href= "{{ url_for('static',filename='style.css') }}">
+    <title>Login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+
+<body>
+    <div class="login">
+        <div class="login-container">
+            Login
+        </div>
+        <div class="login-fields">
+            <div class="text-email">
+                Email
+            </div>
+            <input class="login-email">
+        </div>
+
+        <div class="login-fields">
+            <div class="text-email">
+                Password
+            </div>
+            <input class="login-pass">
+        </div>
+    
+        <input type="submit" name="submit" id="button">
+        <div class="other-login">
+            <h5>or continue with</h5>
+            <button type="button" class="login-with-google-btn" >
+                Sign in with Google
+              </button>
+        </div>
+    </div>
+
+    </div>
+
+</body>
+
+</html>
